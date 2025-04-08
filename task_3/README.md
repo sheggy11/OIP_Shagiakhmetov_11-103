@@ -41,7 +41,6 @@ python inverted_index_search.py
 ```
 
 ### Запуск поиска
-- 
 ```
 python boolean_search.py
 ```
