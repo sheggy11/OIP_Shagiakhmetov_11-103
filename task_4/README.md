@@ -1,7 +1,5 @@
 # Задание 4: 
 
-# TF-IDF Calculator
-
 ## Описание
 
 Реализация вычисления **TF-IDF** для текстовых документов на основе заранее подготовленных токенов и лемм. Основные задачи:
@@ -30,12 +28,12 @@ TF-IDF(t, d) = TF(t, d) * IDF(t)
 
 - **Исходные данные**:
 
-- Документы с HTML-разметкой: ../task1/archive/page_n.html
-- Файлы с терминами и леммами: ..task_2/pages_tokens_lemmas/page_n (файлы lemmatized_tokens_list.txt и tokens_list.txt)
+ - Документы с HTML-разметкой: ../task1/archive/page_n.html
+ - Файлы с терминами и леммами: ..task_2/pages_tokens_lemmas/page_n (файлы lemmatized_tokens_list.txt и tokens_list.txt)
 
 **Результаты сохраняются в директории**:
-- task_4/tokens_list_tf_idf,
-- task_4/lemmas_list_tf_idf
+ - task_4/tokens_list_tf_idf,
+ - task_4/lemmas_list_tf_idf
 
 ---
 
@@ -71,7 +69,7 @@ TF-IDF(t, d) = TF(t, d) * IDF(t)
 
 - Выполните команду:
 ```
-python task_4.py
+python compute_tf_idf.py
 ```
 - Скрипт обработает 100 документов, вычислит TF, IDF и TF-IDF, и сохранит результаты в соответствующие директории: `task_4/tokens_list_tf_idf/` и `task_4/lemmas_list_tf_idf/`.
 
